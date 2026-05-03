@@ -41,8 +41,8 @@ def agent_portrayal(agent):
 # Sliders for four parameter groups varied in the paper:
 # territory size, cultural complexity (F and q), and range of interaction
 model_params = {
-    "width": Slider("Grid Width", value=10, min=5, max=50, step=5),
-    "height": Slider("Grid Height", value=10, min=5, max=50, step=5),
+    "width": Slider("Grid Width", value=10, min=5, max=100, step=5),
+    "height": Slider("Grid Height", value=10, min=5, max=100, step=5),
     "num_features": Slider("Features (F)", value=5, min=2, max=15, step=1),
     "num_traits": Slider("Traits per Feature (q)", value=10, min=2, max=15, step=1),
     # Only 4, 8, 12 are valid
